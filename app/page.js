@@ -61,12 +61,24 @@ export default function Home() {
         <div>photo</div>
         <div className="text&all mt-40 ">
           <div className="heading">
-            <p className="text-[#502274] font-bold text-5xl">
+            <p className="text-[#502274] font-extrabold text-[54px] ">
               Create and customize
             </p>
-            <p className="text-[#502274] font-bold text-5xl"> your palmLink in</p>
-           
-            <p className="text-[#502274] font-bold text-5xl">minutes</p>
+            <p className="text-[#502274] font-extrabold text-5xl">
+              {" "}
+              your palmLink in
+            </p>
+
+            <p className="text-[#502274] font-extrabold text-5xl font-poppins">
+              minutes
+            </p>
+          </div>
+          <div className="maintext mt-4">
+            <p className="text-[#502274]">
+              Connect your TikTok, Instagram, Twitter, website, store, videos,
+              music, podcast, events and more. It all comes together in a link
+              in bio landing page designed to convert.
+            </p>
           </div>
         </div>
       </section>
