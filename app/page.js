@@ -59,8 +59,8 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-[#e9c0e9] min-h-[100vh] grid grid-cols-2">
-        <div>devssv</div>
-        <div>devssv</div>
+        <div>photo</div>
+        <div className="text&all"></div>
       </section>
     </main>
   );
