@@ -8,7 +8,6 @@ export default function Home() {
   const [text, setText] = useState("");
   const router = useRouter();
 
-
   const createTree = () => {
     router.push(`/generate?handle=${text}`);
   };
@@ -22,7 +21,7 @@ export default function Home() {
               Everything you are. In one{" "}
             </p>
             <p className="text-[#def056] font-bold text-4xl md:text-5xl">
-               simple link in bio,
+              simple link in bio,
             </p>
             <p className="text-[#def056] font-bold text-4xl md:text-5xl"> </p>
             <p className="text-[#def056] md:text-lg mt-4 ">
@@ -60,7 +59,16 @@ export default function Home() {
       </section>
       <section className="bg-[#e9c0e9] min-h-[100vh] grid grid-cols-2">
         <div>photo</div>
-        <div className="text&all"></div>
+        <div className="text&all mt-40 ">
+          <div className="heading">
+            <p className="text-[#502274] font-bold text-5xl">
+              Create and customize
+            </p>
+            <p className="text-[#502274] font-bold text-5xl"> your palmLink in</p>
+           
+            <p className="text-[#502274] font-bold text-5xl">minutes</p>
+          </div>
+        </div>
       </section>
     </main>
   );
