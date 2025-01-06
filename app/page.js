@@ -58,7 +58,15 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-[#e9c0e9] min-h-[100vh] grid grid-cols-2">
-        <div>photo</div>
+        <div className="photo mt-28">
+          <Image
+            alt="no image"
+            width={522}
+            height={482}
+            src="/clothes.png"
+            className="w-full md:w-auto"
+          ></Image>
+        </div>
         <div className="text&all mt-40 ">
           <div className="heading">
             <p className="text-[#502274] font-extrabold text-[54px] ">
@@ -74,11 +82,16 @@ export default function Home() {
             </p>
           </div>
           <div className="maintext mt-4">
-            <p className="text-[#502274]">
+            <p className="text-[#502274] ">
               Connect your TikTok, Instagram, Twitter, website, store, videos,
               music, podcast, events and more. It all comes together in a link
               in bio landing page designed to convert.
             </p>
+          </div>
+          <div className="btn mt-11">
+            <button className=" rounded-full bg-[#502274] p-5 w-48 text-white">
+              Get started for free
+            </button>
           </div>
         </div>
       </section>
