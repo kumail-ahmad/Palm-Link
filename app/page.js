@@ -95,18 +95,33 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-[#780016] min-h-[100vh] grid grid-cols-2"><div className="container"></div>
-      <div className="text&all">
-        <p className="text">Share your PalmLink</p>
-        <p className="text">from your Instagram </p>
-        <p className="text">TikTok, Twitter and </p>
-        <p className="text">other bios</p>
-
-      </div>
-      <div className="maintext">
-        <p classname=""> Add your unique Linktree URL to all the platforms and places you find your audience. Then use your QR code to drive your offline traffic online.</p>
-      </div>
-      <div className="Photo">photo</div></section>
+      <section className="bg-[#780016] min-h-[100vh] grid grid-cols-2">
+        <div className="container mt-36">
+          <div className="text&all">
+            <p className="text text-6xl text-[#E9C0E9] font-extrabold">
+              Share your PalmLink
+            </p>
+            <p className="text text-6xl text-[#E9C0E9] font-extrabold">
+              from your Instagram{" "}
+            </p>
+            <p className="text text-6xl text-[#E9C0E9] font-extrabold">
+              TikTok, Twitter and{" "}
+            </p>
+            <p className="text text-5xl text-[#E9C0E9] font-extrabold">
+              other bios
+            </p>
+          </div>
+          <div className="maintext text-4xl">
+            <p classname="">
+              {" "}
+              Add your unique Linktree URL to all the platforms and places you
+              find your audience. Then use your QR code to drive your offline
+              traffic online.
+            </p>
+          </div>
+        </div>
+        <div className="Photo">photo</div>
+      </section>
     </main>
   );
 }
