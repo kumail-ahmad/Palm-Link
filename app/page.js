@@ -95,6 +95,18 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="bg-[#780016] min-h-[100vh] grid grid-cols-2"><div className="container"></div>
+      <div className="text&all">
+        <p className="text">Share your PalmLink</p>
+        <p className="text">from your Instagram </p>
+        <p className="text">TikTok, Twitter and </p>
+        <p className="text">other bios</p>
+
+      </div>
+      <div className="maintext">
+        <p classname=""> Add your unique Linktree URL to all the platforms and places you find your audience. Then use your QR code to drive your offline traffic online.</p>
+      </div>
+      <div className="Photo">photo</div></section>
     </main>
   );
 }
