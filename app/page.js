@@ -112,7 +112,7 @@ export default function Home() {
             </p>
           </div>
           <div className="maintext text-sm w-[550px] mt-9 text-[#E9C0E9] font-semibold">
-            <p classname="">
+            <p className="">
               {" "}
               Add your unique Linktree URL to all the platforms and places you
               find your audience. Then use your QR code to drive your offline
@@ -126,7 +126,15 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="Photo">photo</div>
+        <div className="Photo ">
+          <Image
+            src="/3rd.png"
+            alt="Image"
+            width={522}
+            height={482}
+            className="mt-32 ml-12"
+          ></Image>
+        </div>
       </section>
     </main>
   );
