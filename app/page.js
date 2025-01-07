@@ -96,28 +96,34 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-[#780016] min-h-[100vh] grid grid-cols-2">
-        <div className="container mt-36">
+        <div className="container mt-36 ml-14">
           <div className="text&all">
-            <p className="text text-6xl text-[#E9C0E9] font-extrabold">
+            <p className="text text-6xl text-[#E9C0E9] font-extrabold font-sans">
               Share your PalmLink
             </p>
-            <p className="text text-6xl text-[#E9C0E9] font-extrabold">
+            <p className="text text-5xl text-[#E9C0E9] font-extrabold font-sans">
               from your Instagram{" "}
             </p>
-            <p className="text text-6xl text-[#E9C0E9] font-extrabold">
+            <p className="text text-5xl text-[#E9C0E9] font-extrabold font-sans">
               TikTok, Twitter and{" "}
             </p>
-            <p className="text text-5xl text-[#E9C0E9] font-extrabold">
+            <p className="text text-5xl text-[#E9C0E9] font-extrabold font-sans">
               other bios
             </p>
           </div>
-          <div className="maintext text-4xl">
+          <div className="maintext text-sm w-[550px] mt-9 text-[#E9C0E9] font-semibold">
             <p classname="">
               {" "}
               Add your unique Linktree URL to all the platforms and places you
               find your audience. Then use your QR code to drive your offline
               traffic online.
             </p>
+          </div>
+          <div className="btn mt-12 w-64">
+            <button className="p-5 bg-[#E9C0E9] text-gray-900 rounded-full font-bold">
+              {" "}
+              Get started for free
+            </button>
           </div>
         </div>
         <div className="Photo">photo</div>
