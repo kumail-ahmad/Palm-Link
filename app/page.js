@@ -58,26 +58,26 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-[#e9c0e9] min-h-[100vh] grid grid-cols-2">
-        <div className="photo mt-28">
+        <div className="photo mt-28 hidden md:block ">
           <Image
             alt="no image"
             width={522}
             height={482}
             src="/clothes.png"
-            className="w-full md:w-auto hidden md:block"
+            className="w-full md:w-auto "
           ></Image>
         </div>
-        <div className="text&all mt-40 ">
-          <div className="heading">
-            <p className="text-[#502274] font-extrabold text-[54px] ">
+        <div className="text&all mt-28 md:mt-40 ml-10 md:ml-0 w-full ">
+          <div className="heading w-full">
+            <p className="text-[#502274] font-extrabold text-3xl md:text-[54px] ">
               Create and customize
             </p>
-            <p className="text-[#502274] font-extrabold text-5xl">
+            <p className="text-[#502274] font-extrabold text-3xl md:text-5xl">
               {" "}
               your palmLink in
             </p>
 
-            <p className="text-[#502274] font-extrabold text-5xl font-poppins">
+            <p className="text-[#502274] font-extrabold text-3xl md:text-5xl font-poppins">
               minutes
             </p>
           </div>
@@ -96,23 +96,23 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-[#780016] min-h-[100vh] grid grid-cols-2">
-        <div className="container mt-36 ml-14">
+        <div className="container mt-36 ml-14 w-full">
           <div className="text&all">
-            <p className="text text-6xl text-[#E9C0E9] font-extrabold font-sans">
+            <p className="text text-3xl md:text-6xl text-[#E9C0E9] font-extrabold font-sans">
               Share your PalmLink
             </p>
-            <p className="text text-5xl text-[#E9C0E9] font-extrabold font-sans">
+            <p className="text text-3xl md:text-6xl text-[#E9C0E9] font-extrabold font-sans">
               from your Instagram{" "}
             </p>
-            <p className="text text-5xl text-[#E9C0E9] font-extrabold font-sans">
+            <p className="text text-3xl md:text-6xl text-[#E9C0E9] font-extrabold font-sans">
               TikTok, Twitter and{" "}
             </p>
-            <p className="text text-5xl text-[#E9C0E9] font-extrabold font-sans">
+            <p className="text text-3xl md:text-6xl text-[#E9C0E9] font-extrabold font-sans">
               other bios
             </p>
           </div>
-          <div className="maintext text-sm w-[550px] mt-9 text-[#E9C0E9] font-semibold">
-            <p className="">
+          <div className="maintext text-sm w-52  mt-9 text-[#E9C0E9] font-semibold">
+            <p className=" ">
               {" "}
               Add your unique Linktree URL to all the platforms and places you
               find your audience. Then use your QR code to drive your offline
@@ -126,27 +126,29 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="Photo ">
+        <div className="Photo hidden md:block">
           <Image
             src="/3rd.png"
             alt="Image"
             width={522}
             height={482}
-            className="mt-32 ml-12 hidden md:block"
+            className="mt-32 ml-12 "
           ></Image>
         </div>
       </section>
       <section className="min-h-[100vh] bg-[#f3f3f1] grid grid-cols-2">
-        <div className="photo">photo</div>
+        <div className="photo md:block hidden">photo</div>
         <div className="text">
-          <div className="heading mt-36">
-            <p className="text-[#1e2330] text-5xl font-extrabold ">
+          <div className="heading mt-36 ml-14 w-full">
+            <p className="text-[#1e2330] text-2xl md:text-5xl font-extrabold ">
               Analyze your audience
             </p>
-            <p className="text-[#1e2330] text-5xl font-extrabold ">
+            <p className="text-[#1e2330]  text-2xl md:text-5xl font-extrabold ">
               and keep your followers
             </p>
-            <p className="text-[#1e2330] text-5xl font-extrabold ">engaged</p>
+            <p className="text-[#1e2330]  text-2xl md:text-5xl font-extrabold ">
+              engaged
+            </p>
           </div>
         </div>
       </section>
