@@ -136,6 +136,12 @@ export default function Home() {
           ></Image>
         </div>
       </section>
+      <section className="min-h-[100vh] bg-white grid grid-cols-2">
+        <div className="photo">photo</div>
+        <div className="text">
+          <div className="heading"></div>
+        </div>
+      </section>
     </main>
   );
 }
