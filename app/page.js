@@ -64,7 +64,7 @@ export default function Home() {
             width={522}
             height={482}
             src="/clothes.png"
-            className="w-full md:w-auto"
+            className="w-full md:w-auto "
           ></Image>
         </div>
         <div className="text&all mt-40 ">
@@ -136,10 +136,18 @@ export default function Home() {
           ></Image>
         </div>
       </section>
-      <section className="min-h-[100vh] bg-white grid grid-cols-2">
+      <section className="min-h-[100vh] bg-[#f3f3f1] grid grid-cols-2">
         <div className="photo">photo</div>
         <div className="text">
-          <div className="heading"></div>
+          <div className="heading mt-36">
+            <p className="text-[#1e2330] text-5xl font-extrabold ">
+              Analyze your audience
+            </p>
+            <p className="text-[#1e2330] text-5xl font-extrabold ">
+              and keep your followers
+            </p>
+            <p className="text-[#1e2330] text-5xl font-extrabold ">engaged</p>
+          </div>
         </div>
       </section>
     </main>
