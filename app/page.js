@@ -64,7 +64,7 @@ export default function Home() {
             width={522}
             height={482}
             src="/clothes.png"
-            className="w-full md:w-auto "
+            className="w-full md:w-auto hidden md:block"
           ></Image>
         </div>
         <div className="text&all mt-40 ">
@@ -132,7 +132,7 @@ export default function Home() {
             alt="Image"
             width={522}
             height={482}
-            className="mt-32 ml-12"
+            className="mt-32 ml-12 hidden md:block"
           ></Image>
         </div>
       </section>
