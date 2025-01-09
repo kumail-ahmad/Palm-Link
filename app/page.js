@@ -111,7 +111,7 @@ export default function Home() {
               other bios
             </p>
           </div>
-          <div className="maintext text-sm w-52  mt-9 text-[#E9C0E9] font-semibold">
+          <div className="maintext  md:text-lg text-sm w-68  mt-9 text-[#E9C0E9] font-semibold">
             <p className=" ">
               {" "}
               Add your unique Linktree URL to all the platforms and places you
@@ -136,7 +136,7 @@ export default function Home() {
           ></Image>
         </div>
       </section>
-      <section className="min-h-[100vh] bg-[#f3f3f1] grid grid-cols-2">
+      <section className="min-h-[100vh] bg-[#f3f3f1] grid grid-cols-2 font-poppins">
         <div className="photo md:block hidden">photo</div>
         <div className="text">
           <div className="heading mt-36 ml-14 w-full">
@@ -149,6 +149,18 @@ export default function Home() {
             <p className="text-[#1e2330]  text-2xl md:text-5xl font-extrabold ">
               engaged
             </p>
+          </div>
+          <div className="maintext mt-12 ml-14">
+            <p className="text-black  text-sm  md:text-lg md:w-full w-40">
+              Track your engagement over time, monitor revenue and learn what’s
+              converting your audience. Make informed updates on the fly to keep
+              them coming back.
+            </p>
+          </div>
+          <div className="btn mt-10 ml-11 w-full">
+            <button className="bg-[#E9C0E9] p-4 text-black rounded-full  ">
+              Get started for free
+            </button>
           </div>
         </div>
       </section>
