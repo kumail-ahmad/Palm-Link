@@ -166,14 +166,14 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="min-h-[50vh] flex justify-center items-center bg-[#f3f3f1]">
-        <div className="text flex flex-col justify-center items-center text-5xl font-bold font-poppins text-gray-700 text-center">
+      <section className="min-h-[40vh] flex justify-center items-center bg-[#f3f3f1]">
+        <div className="text flex flex-col justify-center items-center text-3xl md:text-5xl font-bold font-poppins text-gray-700 text-center">
           The only link in bio trusted by 50M+
           <p className="text-blue-500">creators</p>
         </div>
       </section>
       <section className="min-h-[30vh] flex flex-col justify-center items-center bg-[#f3f3f1]">
-        <div className="text flex flex-col justify-center items-center text-5xl font-bold font-poppins text-gray-700 text-center">
+        <div className="text flex flex-col justify-center items-center text-3xl md:text-5xl font-bold font-poppins text-gray-700 text-center">
           The fast, friendly and powerful link in bio tool.
         </div>
         <button className="bg-[#E9C0E9] p-4 mt-6 text-bold text-black rounded-full">
