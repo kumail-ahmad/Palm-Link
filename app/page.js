@@ -137,7 +137,9 @@ export default function Home() {
         </div>
       </section>
       <section className="min-h-[100vh] bg-[#f3f3f1] grid grid-cols-2 font-poppins">
-        <div className="photo md:block hidden">photo</div>
+        <div className="photo md:block hidden mt-32 ml-28">
+          <Image src="/4th.png" alt="" width={422} height={482}></Image>
+        </div>
         <div className="text">
           <div className="heading mt-36 ml-14 w-full">
             <p className="text-[#1e2330] text-2xl md:text-5xl font-extrabold ">
