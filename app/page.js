@@ -166,6 +166,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="min-h-[30vh] flex justify-center items-center bg-[#f3f3f1]">
+        <div className="text flex flex-col justify-center items-center text-5xl font-bold font-poppins text-gray-700 text-center">
+          The only link in bio trusted by 50M+
+          <p className="text-blue-400">creators</p>
+        </div>
+      </section>
     </main>
   );
 }
